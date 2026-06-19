@@ -25,7 +25,7 @@ const Hero = () => {
         }, 'a')
         
         tl.to(hello.current, {
-            right: window.innerWidth < 640 ? '10%' : '-0%',
+            right: window.innerWidth < 640 ? '-30%' : '-0%',
             duration: 0.5,
         }, 'a')
         
